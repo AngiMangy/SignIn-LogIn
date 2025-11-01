@@ -2,16 +2,21 @@
     margin: 0;
 }
 body{
-    background-color: rgb(60, 60, 136);
+    /* Background image (fixed syntax): file must be in the same folder as this CSS file */
+    background-image: url("background.jpg");
+    background-size: cover; /* scale to cover the viewport */
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
 }
 #loginBlock, #signupBlock{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 25%;
+    min-height: 15%;
     max-height: 45%;
-    min-width: 25%;
+    min-width: 15%;
     max-width: 45%;
     border-radius: 15px;
     background-color: white;
